@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="pin2dmd">
+</Property><Property Name="Solution File" Value="F:\STM32\git\pindmd.vc2008\Microsoft VC++ 2008 Express\SimpleLibusbDemo\pin2dmd.sln">
+</Property><Property Name="Date" Value="Samstag, 21. November 2015">
+</Property><Property Name="Time" Value="17:25:23">
+</Property></Properties><Event ErrorLevel="0" Project="pin2dmd" Source="pin2dmd.vcproj" Description="Converting project file 'F:\STM32\git\pindmd.vc2008\Microsoft VC++ 2008 Express\SimpleLibusbDemo\pin2dmd.vcproj'.">
+</Event><Event ErrorLevel="1" Project="pin2dmd" Source="pin2dmd.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="pin2dmd" Source="pin2dmd.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="pin2dmd" Source="pin2dmd.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="pin2dmd" Source="pin2dmd.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="pin2dmd" Source="pin2dmd.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="pin2dmd" Source="pin2dmd.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="pin2dmd" Source="pin2dmd.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="pin2dmd" Source="pin2dmd.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="pin2dmd" Source="pin2dmd.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="pin2dmd" Source="pin2dmd.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="pin2dmd" Source="pin2dmd.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="pin2dmd" Source="pin2dmd.vcproj" Description="Done converting to new project file 'F:\STM32\git\pindmd.vc2008\Microsoft VC++ 2008 Express\SimpleLibusbDemo\pin2dmd.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="pin2dmd" Source="pin2dmd.vcproj" Description="Converted">
+</Event></UpgradeLog>
