@@ -77,16 +77,14 @@ You need to connect that power supply up to both panels. The controller can
 either be supplied by USB or by an external 5V power source
  
 #5. The Firmware
-As mentioned under point 3 we use CooCox IDE to build the STM32 firmware which 
-can be found under www.coocox.org. You also need the ARM gcc toolchain which 
-can be found here https://launchpad.ne...c-arm-embedded/ There is a video tutorial 
-on youtube how to get it working. You need to download the source for the firmware 
-from github https://github.com/lucky01/PIN2DMD either as zip or git clone. 
-Open the project in CoIDE press F7 to compile and then upload the firmware to the device.
- 
-UncleSash has written some really good manuals and instructions how to get the 
-whole thing running which can be found here:
-http://vpuniverse.com/forums/topic/2269-pin2dmd-instructions-and-howtos/
+Installation is done using ST-Link interface
+(STM32F407 Discovery Board)
+
+1) Download and install ST Link Utility: http://www.st.com/web/en/catalog/tools/PF258168
+2) The latest binary can be found here https://github.com/lucky01/PIN2DMD/raw/master/firmware/latest/PIN2DMD.bin
+3) Connect the STM32 board to the PC using a mini-USB cable (not the smaller microUSB cable). The board will light up and you should an STM32 STLink USB device connected in the Windows notification tray
+4) Flash firmware: Target -> Program 
+Choose PIN2DMD.BIN file from firmware/latest latest folder.
 
 #6. The pin2dmd.exe tool
 The tool is used to configure the controller und upload needed data for the pinball
