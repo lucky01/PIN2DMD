@@ -51,32 +51,40 @@ to buy these panels is from AliExpress. search for "RGB LED 64x64 p2.5 1/16" or
 from the frame and connect side-by-side. Make sure that you end up with 2 x 1/16 
 scan panels since these are the only one currently supported by PIN2DMD. 
 The good thing is that they are seamless.
- 
-#2. The STM32F4 Discovery board
-The panels use a 16 pin Hub75 interface to be connected to the next
-panel or to a controller. We use a STM32F4 discovery board which is available 
-from multiple sources for about $20. It is based on 168Mhz Cortex M4 processor 
-architecture which is needed for the rapid bit-shifting of data to control the 
-panels. We use CooCox IDE to write the program in C. 
-The software is open source and is uploaded to the controller through mini USB port.
- 
-#3. The PIN2DMD Shield
+
+#2. The Controller
+
+#2.1 The STM32F4 Discovery board with PIN2DMD Shield
+
+The panels use a 16 pin Hub75 interface to be connected to the next panel or to a 
+controller. We use a STM32F407 discovery board which is available from multiple sources 
+for about $20. It is based on 168Mhz Cortex M4 processor architecture which is needed 
+for the rapid bit-shifting of data to control the panels. We use CooCox IDE to write 
+the program in C. The software is uploaded to the controller through mini USB port.
 To connect the displays to the controller you need a connector shield pcb, which 
 basically just connects the pins to the 16-pin ribbon cable that drives the displays. 
 The board also has a 14pin connector which can be either used as output to a real 
-monochrome pinball dmd or as input to get the data from a real machine 
-(currently WPC and STERN under development). The PCB layout can be found in the pcb 
-directory. There are group-buys organized for the US from UncleSash and for the 
-EU from Rappelbox which can be joined here: 
-http://vpuniverse.com/forums/forum/132-pin2dmd/
+monochrome pinball dmd or as input to get the data from a real machine. 
+A PCB layout example can be found in the pcb directory. The advantage of the modular 
+system is that new hardware functions can easily be implemented by changing the shield 
+while keeping the controller. Members of the community have organized a group buy for 
+printed circuit boards and also offer different kits. Search for PIN2DMD on german forum
+http://www.flippermarkt.de or http://vpuniverse.com/forums/forum/132-pin2dmd/ .
 
-#4. The Power Supply
+#2.2 The DMD ST32 Controller board
+
+There is also a custom made controller board specifically designed for PIN2DMD.  
+It can be directly connected to the panels and has multiple order options like 
+onboard wifi. The software is uploaded to the controller through mini USB port. 
+More information can be found at http://www.pinballsp.com . 
+
+#3. The Power Supply
 The RGB LED displays require 5vdc for power and if you want to run them
 with full brightness they need a lot of current. A 10A power should be enough.
 You need to connect that power supply up to both panels. The controller can 
 either be supplied by USB or by an external 5V power source
  
-#5. The Firmware
+#4. The Firmware
 Installation is done using ST-Link interface
 (STM32F407 Discovery Board)
 
@@ -86,7 +94,7 @@ Installation is done using ST-Link interface
 4) Flash firmware: Target -> Program 
 Choose PIN2DMD.BIN file from firmware/latest latest folder.
 
-#6. The pin2dmd.exe tool
+#5. The pin2dmd.exe tool
 The tool is used to configure the controller und upload needed data for the pinball
 used. It can either run in commandline mode or in GUI mode.
  
