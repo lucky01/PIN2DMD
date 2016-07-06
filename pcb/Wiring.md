@@ -68,7 +68,6 @@ GPIO D
 - 4 - G2
 - 5 - B2
 - 6 - RGB Clock
-
 - 12 - LED GREEN
 - 13 - LED ORANGE
 - 14 - LED RED
