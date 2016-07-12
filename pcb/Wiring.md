@@ -29,7 +29,7 @@ GPIO A
 3 - OE
 4 - ESP SPI CS (GPIO15)
 5 - CLK
-6 - DETECT DMD ST32 (not used on STM32F4 Shield)
+6 - display custom logo when low (not used on STM32F4 Shield)
 7 - DATA
 8 - USB_OTG_SOF (not used)
 9 - USB_OTG_VBUS
