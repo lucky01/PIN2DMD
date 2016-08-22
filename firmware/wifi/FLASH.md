@@ -11,4 +11,6 @@ flash blank.bin to 0x3FE000
 flash user1.bin to 0x01000
 
 - Flash pin2dmd firmware on the controller.
+- remove all power and usb connections from the device 
+- connect to the Wifi Accesspoint
 

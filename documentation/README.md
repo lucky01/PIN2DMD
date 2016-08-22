@@ -1,4 +1,4 @@
 # PIN2DMD installation instructions
 
-provided by UncleSash
+can be found on http://www.pin2dmd.com
 
