@@ -8,7 +8,7 @@ HUB75 pins
 | R1 |  G1 |
 | B1 | GND |
 | R2 | G2 |
-| B2 | GND |
+| B2 | E |
 | A | B |
 | C | D |
 | CLK | STB |
@@ -46,14 +46,14 @@ GPIO B
 - 5 - ESP SPI MOSI (GPIO13)
 - 6 - USART1 TX to Max232
 - 7 - USART1 RX to Max232
-- 8 - ESP WIFI GPIO0
-- 9 - ESP WIFI RESET
+- 8 - RTC_SCL (ESP WIFI GPIO0 on DMDST32)
+- 9 - RTC_SDA (ESP WIFI RESET on DMDST32)
 - 10 - USART3 TX WIFI
 - 11 - USART3 RX WIFI
 - 12 - SD CS
 - 13 - SD SCK
-- 14 - SD - DO
-- 15 - SD - DI
+- 14 - SD DO
+- 15 - SD DI
 
 GPIO C
 - 6 - RGB OE
@@ -74,14 +74,16 @@ GPIO D
 - 15 - LED BLUE
 
 GPIO E
+- 0 - ESP WIFI GPIO0
+- 1 - ESP WIFI RESET
 - 2 - RGB Row A
 - 3 - RGB Row B
 - 4 - RGB Row C
 - 5 - RGB Row D
 - 6 - RGB Latch
-- 7 - Sensor 1 (Go-DMD)
-- 8 - Sensor 2 (Go-DMD)
-- 9 - Sensor 3 (Go-DMD)
+- 7 - Sensor 1 (Go-DMD) (DHT11)
+- 8 - Sensor 2 (Go-DMD) (PIR)
+- 9 - Sensor 3 (Go-DMD) (IR)
 - 10 - Button 1
 - 11 - Button 2
 - 12 - Second DIP (not used on STM32F4 Shield)

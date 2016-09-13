@@ -1,6 +1,6 @@
 There are currently two possiblities to flash the firmware to the esp wifi chip.
 
-You need top prepare your controller for the wifi upgrade with a special firmware load. Depending on the
+You need to prepare your controller for the wifi upgrade with a special firmware load. Depending on the
 upgrade method you have to do the following:
 
 1. Programm through the onboard USB port of your controller
