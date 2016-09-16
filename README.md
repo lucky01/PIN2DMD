@@ -20,21 +20,25 @@ Sorry for inconvinience, but is seems that the hunt for quick money eats the bra
 
 It currently supports:
 
- -   Visual Pinball / PinMame
- -   Future Pinball with DMD interceptor DLL
- -   Unit3d Pinball
- -   Ultra DMD
- -   XDMD
- -   PinballX
- -   WPC real pinball input
- -   Stern real pinball input
- -   Whitestar real pinball input
- -   DataEast real pinball input
- -   WPC95 real pinball input
- -   Gottlieb real pinball input (beta)
- -   SmartDMD inframe color switching
- -   Frame colorization with PIN2DMD Editor by Steve (beta)
- -   WCID automated driver installation
+- Pinball Browser / SmartDMD color switching for full color Stern ROMS
+- Frame colorization with PIN2DMD Editor by Steve (beta) for all pinball machines
+- Visual Pinball / PinMame USB input
+- Future Pinball with DMD interceptor DLL
+- Unit3d Pinball
+- Ultra DMD support (Stephen)
+- PinballX / XDMD support (Tom Speirs)
+- Pinball fx2 support using dmdext from Freezy
+- The Pinball Arcade support using dmdext from Freezy and NoEx
+- WPC real pinball input
+- Stern real pinball input
+- Whitestar real pinball input
+- DataEast real pinball input
+- WPC95 real pinball input
+- WPC PinLED
+- Stern Spike real pinball input
+- Gottlieb real pinball input
+- Capcom real pinball input
+- WCID Windows automated driver installation
 
 The components cost approximately 100$
 Here is a list of what you need:
@@ -43,11 +47,11 @@ Here is a list of what you need:
 The panels we use are sold for video walls and advertising signs. There are many 
 sizes of panels available with different spacing between the LEDs. The ones 
 that fit best into a pinball have 2.5mm spacing (also referred to as P2.5), 
-which results in a 128×32 display of 320×76.8mm. This can be mounted into an 
+which results in a 128Ã—32 display of 320Ã—76.8mm. This can be mounted into an 
 existing DMD/speaker panel from a pinball cabinet. Currently the only place 
 to buy these panels is from AliExpress. search for "RGB LED 64x64 p2.5 1/16" or 
-"RGB LED 64x64 p2.5 1/16". You don´t find 128×32 panels, but you can buy two 
-64×32 or one 64x64 panel which consists of two 64x32 panels which can be removed 
+"RGB LED 64x64 p2.5 1/16". You donÂ´t find 128Ã—32 panels, but you can buy two 
+64Ã—32 or one 64x64 panel which consists of two 64x32 panels which can be removed 
 from the frame and connect side-by-side. Make sure that you end up with 2 x 1/16 
 scan panels since these are the only one currently supported by PIN2DMD. 
 The good thing is that they are seamless.
