@@ -38,6 +38,8 @@ It currently supports:
 - Stern Spike real pinball input
 - Gottlieb real pinball input
 - Capcom real pinball input
+- AlvinG real pinball input
+- Spooky real pinball input
 - WCID Windows automated driver installation
 
 The components cost approximately 100$
