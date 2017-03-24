@@ -17,7 +17,9 @@ Additional commands are:
 /i image upload (binary ppm (P6) format with 128x32 pixel resolution)
 /s smartdmd paletteID upload
 /l set brightness (10-255)
-/u <src> <dest> upload file to sd card
+/u - <src> (<dest>) - upload file optional with <dest> as filename
+/d <file.dmc> - convert palette from .dmc to .pal file (4 colors)
+/k - delete activation key
 
 Without parameter program starts in GUI mode to adjust config.
 
