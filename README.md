@@ -20,8 +20,19 @@ Sorry for inconvinience, but is seems that the hunt for quick money eats the bra
 
 It currently supports:
 
-- Pinball Browser / SmartDMD color switching for full color Stern ROMS
-- Frame colorization with PIN2DMD Editor by Steve (beta) for all pinball machines
+- WPC real pinball input
+- Stern real pinball input
+- Whitestar real pinball input
+- DataEast real pinball input
+- WPC95 real pinball input
+- WPC PinLED
+- Sega 192x64 using 64x64 1/32scan P2 Panels
+- Stern Spike real pinball input
+- Gottlieb real pinball input
+- Capcom real pinball input
+- AlvinG real pinball input
+- Spooky real pinball input
+- SPinball real pinball input (beta)
 - Visual Pinball / PinMame USB input
 - Future Pinball with DMD interceptor DLL
 - Unit3d Pinball
@@ -29,20 +40,11 @@ It currently supports:
 - PinballX / XDMD support (Tom Speirs)
 - Pinball fx2 support using dmdext from Freezy
 - The Pinball Arcade support using dmdext from Freezy and NoEx
-- WPC real pinball input
-- Stern real pinball input
-- Whitestar real pinball input
-- DataEast real pinball input
-- WPC95 real pinball input
-- WPC PinLED
-- Stern Spike real pinball input
-- Gottlieb real pinball input
-- Capcom real pinball input
-- AlvinG real pinball input
-- Spooky real pinball input
+- Pinball Browser / SmartDMD color switching for full color Stern ROMS
+- Frame colorization with PIN2DMD Editor by Steve (beta) for all pinball machines
 - WCID Windows automated driver installation
 
-The components cost approximately 100$
+The components cost approximately 120$
 Here is a list of what you need:
  
 #1. The Panels
@@ -60,29 +62,22 @@ The good thing is that they are seamless.
 
 #2. The Controller
 
-#2.1 The STM32F4 Discovery board with PIN2DMD Shield
+#2.1 The STM32F4 Discovery / Nucleo board with PIN2DMD Shield
 
 The panels use a 16 pin Hub75 interface to be connected to the next panel or to a 
-controller. We use a STM32F407 discovery board which is available from multiple sources 
-for about $20. It is based on 168Mhz Cortex M4 processor architecture which is needed 
-for the rapid bit-shifting of data to control the panels. We use CooCox IDE to write 
-the program in C. The software is uploaded to the controller through mini USB port.
+controller. We use standard STM32 development boards like the STM32F407 discovery or 
+Nucleo144-F429ZI which are available from multiple sources for about $20. 
+It is based on a ARM Cortex processor architecture which is needed 
+for the rapid bit-shifting of data to control the panels. We write the program in C. 
+The software is uploaded to the controller through mini USB port.
 To connect the displays to the controller you need a connector shield pcb, which 
 basically just connects the pins to the 16-pin ribbon cable that drives the displays. 
-The board also has a 14pin connector which can be either used as output to a real 
-monochrome pinball dmd or as input to get the data from a real machine. 
-A PCB layout example can be found in the pcb directory. The advantage of the modular 
+The board also has a 14pin connector which is used as input to get the data from a real machine. 
+PCB layout examples can be found in the hardware directory. The advantage of the modular 
 system is that new hardware functions can easily be implemented by changing the shield 
 while keeping the controller. Members of the community have organized a group buy for 
-printed circuit boards and also offer different kits. Search for PIN2DMD on german forum
+printed circuit boards and also offer different kits. Search for PIN2DMD on 
 http://www.flippermarkt.de or http://vpuniverse.com/forums/forum/132-pin2dmd/ .
-
-#2.2 The DMD ST32 Controller board
-
-There is also a custom made controller board specifically designed for PIN2DMD.  
-It can be directly connected to the panels and has multiple order options like 
-onboard wifi. The software is uploaded to the controller through mini USB port. 
-More information can be found at http://www.pinballsp.com . 
 
 #3. The Power Supply
 The RGB LED displays require 5vdc for power and if you want to run them
@@ -92,7 +87,6 @@ either be supplied by USB or by an external 5V power source
  
 #4. The Firmware
 Installation is done using ST-Link interface
-(STM32F407 Discovery Board)
 
 1) Download and install ST Link Utility: http://www.st.com/web/en/catalog/tools/PF258168
 2) The latest binary can be found here https://github.com/lucky01/PIN2DMD/raw/master/firmware/latest/PIN2DMD.bin
