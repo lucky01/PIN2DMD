@@ -1,6 +1,6 @@
-PIN2DMD V3 shield partlist
+PIN2DMD shield partlist
 
-1 x STM32F407-DISCOVERY
+STM32F407-DISCOVERY Shield
 
 2 x pinheader 2x25 pins female double row 2.54mm
 
