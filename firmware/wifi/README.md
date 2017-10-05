@@ -4,7 +4,7 @@ You need to prepare your controller for the wifi upgrade with a special firmware
 upgrade method you have to do the following:
 
 1. Programm through the onboard USB port of your controller
-	- Flash stm_esp_loader.bin on your pin2dmd controller board using ST-Link Utility or stm_esp_loader.dfu using DfuSe Demo and run it
+	- depending on your hardware flash disco_esp_loader.bin or nucleo_esp_loader.bin on your pin2dmd controller board using ST-Link Utility or stm_esp_loader.dfu using DfuSe Demo and run it
 	- you should see the blue status LED on
 	- install the STM virtual COM port drivers
 	from http://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-utilities/stsw-stm32102.html
