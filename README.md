@@ -33,6 +33,7 @@ It currently supports:
 - AlvinG real pinball input
 - Spooky real pinball input
 - SPinball real pinball input (beta)
+- DataEast 128x16 real pinball input (beta)
 - Visual Pinball / PinMame USB input
 - Future Pinball with DMD interceptor DLL
 - Unit3d Pinball
