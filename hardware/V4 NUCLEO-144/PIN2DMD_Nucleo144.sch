@@ -14271,18 +14271,18 @@ Port = HUB75!!!&lt;br&gt;&lt;/p&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="167.64" y="121.92" size="2.54" layer="91">power source &amp; CR2032</text>
-<text x="143.51" y="171.45" size="2.54" layer="91">onscreen menu buttons</text>
-<text x="218.44" y="119.38" size="2.54" layer="91">WiFi module</text>
-<text x="50.8" y="171.45" size="2.54" layer="91">Nucleo 144 - morpho header</text>
-<text x="175.26" y="82.55" size="2.54" layer="91">HUB75 - RGB LED panel connector</text>
-<text x="198.12" y="171.45" size="2.54" layer="91">RS232 - serial interface</text>
-<text x="156.21" y="133.35" size="2.54" layer="91" align="bottom-center">GO-DMD sensors</text>
-<text x="233.68" y="46.99" size="2.54" layer="91">CAN bus</text>
-<text x="194.31" y="46.99" size="2.54" layer="91">micro SD-card reader</text>
-<text x="34.29" y="63.5" size="2.54" layer="91">real pinball input</text>
-<text x="140.97" y="43.18" size="2.54" layer="91" align="bottom-center">real pinball 
-signal enhancer</text>
+<text x="167.64" y="121.92" size="2.54" layer="91">Power Source &amp; CR2032</text>
+<text x="143.51" y="171.45" size="2.54" layer="91">ON DMD Menu - Button</text>
+<text x="218.44" y="119.38" size="2.54" layer="91">WiFi Module</text>
+<text x="53.34" y="171.45" size="2.54" layer="91">Nucleo 144 - Controller</text>
+<text x="165.1" y="82.55" size="2.54" layer="91">HUB75 - RGB DMD Connector</text>
+<text x="198.12" y="171.45" size="2.54" layer="91">RS232 - seriell Adapter</text>
+<text x="156.21" y="133.35" size="2.54" layer="91" align="bottom-center">GO-DMD Sensors</text>
+<text x="233.68" y="46.99" size="2.54" layer="91">CAN Bus</text>
+<text x="194.31" y="46.99" size="2.54" layer="91">micro SD-Card reader</text>
+<text x="34.29" y="63.5" size="2.54" layer="91">real Pinbal DMD Input</text>
+<text x="140.97" y="43.18" size="2.54" layer="91" align="bottom-center">real Pinball Input
+Signal enhancer</text>
 </plain>
 <instances>
 <instance part="C6" gate="G$1" x="50.8" y="22.86"/>
@@ -15084,6 +15084,16 @@ signal enhancer</text>
 <wire x1="31.75" y1="38.1" x2="31.8008" y2="38.0746" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$11" class="0">
+<segment>
+<wire x1="26.67" y1="38.1" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="38.1" x2="29.21" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="29.21" y1="38.1" x2="29.21" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="PINBALL" gate="J" pin="3"/>
+<pinref part="RN2" gate="C" pin="1"/>
+<wire x1="29.21" y1="33.02" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="N$12" class="0">
 <segment>
 <wire x1="26.67" y1="35.56" x2="26.67" y2="27.94" width="0.1524" layer="91"/>
@@ -15689,15 +15699,6 @@ signal enhancer</text>
 <pinref part="PINBALL" gate="J" pin="7"/>
 <pinref part="RN1" gate="D" pin="1"/>
 <wire x1="22.86" y1="43.18" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="PINBALL" gate="J" pin="3"/>
-<wire x1="22.86" y1="38.1" x2="29.21" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="29.21" y1="38.1" x2="29.21" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="C" pin="1"/>
-<wire x1="29.21" y1="33.02" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
