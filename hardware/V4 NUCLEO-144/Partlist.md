@@ -2,7 +2,7 @@
 
 #V4 Nucleo-144 Shield
 
-2 x pinheader 2x40 pins female double row 2.54mm
+2 x pinheader 2x36 pins female double row 2.54mm
 1 x WaveShare Micro SD-card reader module
 
 2 x IC socket 16pin
