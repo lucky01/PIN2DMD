@@ -1,7 +1,8 @@
 # PIN2DMD
 
-Firmware for V4 shield using STM32 Nucleo-144 board using morpho connector for a higher level of connectivity
+Latest generation EVO128x32 and STM32F429ZI NUCLEO-144 boards use the firmware in the V4 Nucleo-144 folder. 
 
-Firmware for V3 shield using STM32F407 discovery board.
+Older STM32F407 Discovery and DMDST32 boards use the firmware in the V3 STM32F4 Discovery folder
 
-
+XL firmware is for 192x64 displays. Nucleo based XL Display firmware is in the Nucleo folder
+Custom hardware based XL firmware is in the Custom folder.
