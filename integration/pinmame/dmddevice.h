@@ -15,12 +15,23 @@ typedef struct tPMoptions {
 } tPMoptions;
 
 typedef struct rgb24 {
-	char red;
-	char green;
-	char blue;
+	unsigned char red;
+	unsigned char green;
+	unsigned char blue;
 } rgb24;
 
+#define numberOfColorsPerPalette 16
+
+typedef struct palStruct {
+	unsigned char index;
+	unsigned char rgbData[numberOfColorsPerPalette * 3];
+	struct palStruct* next;
+} Palette;
+
 UINT8 *OutputPacketBuffer;
+
+typedef int(*Console_Input_t)(UINT8 *buf, int size);
+Console_Input_t Console_Input = NULL;
 
 typedef enum { 
 	None,
@@ -52,9 +63,12 @@ DMDDEV void Set_16_Colors_Palette(rgb24 *color);
 DMDDEV void PM_GameSettings(const char* GameName, UINT64 HardwareGeneration, const tPMoptions &Options);
 DMDDEV void Render_4_Shades(UINT16 width, UINT16 height, UINT8 *currbuffer);
 DMDDEV void Render_16_Shades(UINT16 width, UINT16 height, UINT8 *currbuffer);
+DMDDEV void Render_4_Shades_with_Raw(UINT16 width, UINT16 height, UINT8 *currbuffer, UINT32 noOfRawFrames, UINT8 *rawbuffer);
+DMDDEV void Render_16_Shades_with_Raw(UINT16 width, UINT16 height, UINT8 *currbuffer, UINT32 noOfRawFrames, UINT8 *rawbuffer);
 DMDDEV void Render_RGB24(UINT16 width, UINT16 height, rgb24 *currbuffer);
 DMDDEV void Render_PM_Alphanumeric_Frame(layout_t, const UINT16 *const seg_data, const UINT16 *const seg_data2);
 DMDDEV void Console_Data(UINT8 data);
+DMDDEV void Console_Input_Ptr(Console_Input_t ptr);
 
 #ifdef __cplusplus
 }
