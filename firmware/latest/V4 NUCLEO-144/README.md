@@ -1,6 +1,6 @@
 # PIN2DMD
 
-Firmware for a STM32F429ZI Nucleo-144 board board to drive a HUB75 RGB panel.
+Firmware for a STM32F429ZI Nucleo-144 board to drive a HUB75 RGB panel.
 
 Standard firmware is for two 64x32 1/16 scan panels in a row for 128x32 resolution.
 
