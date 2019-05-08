@@ -1,1 +1,1 @@
-Templates for acrylic mounting frames. Please check against your panels before ordering.
+Templates for acrylic mounting frames. Please check against your LED panels before ordering.
