@@ -36453,20 +36453,20 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="13.335" y1="-3.81" x2="14.605" y2="-3.81" width="0.1524" layer="21"/>
 <wire x1="15.24" y1="-3.175" x2="14.605" y2="-3.81" width="0.1524" layer="21"/>
 <wire x1="13.335" y1="-3.81" x2="12.7" y2="-3.175" width="0.1524" layer="21"/>
-<smd name="1" x="-1.27" y="-3.81" dx="3.302" dy="1.016" layer="1" rot="R270"/>
-<smd name="2" x="-1.27" y="1.27" dx="3.302" dy="1.016" layer="1" rot="R90"/>
-<smd name="3" x="1.27" y="-3.81" dx="3.302" dy="1.016" layer="1" rot="R270"/>
-<smd name="4" x="1.27" y="1.27" dx="3.302" dy="1.016" layer="1" rot="R270"/>
-<smd name="5" x="3.81" y="-3.81" dx="3.302" dy="1.016" layer="1" rot="R270"/>
-<smd name="6" x="3.81" y="1.27" dx="3.302" dy="1.016" layer="1" rot="R270"/>
-<smd name="7" x="6.35" y="-3.81" dx="3.302" dy="1.016" layer="1" rot="R270"/>
-<smd name="8" x="6.35" y="1.27" dx="3.302" dy="1.016" layer="1" rot="R270"/>
-<smd name="9" x="8.89" y="-3.81" dx="3.302" dy="1.016" layer="1" rot="R270"/>
-<smd name="10" x="8.89" y="1.27" dx="3.302" dy="1.016" layer="1" rot="R270"/>
-<smd name="11" x="11.43" y="-3.81" dx="3.302" dy="1.016" layer="1" rot="R270"/>
-<smd name="12" x="11.43" y="1.27" dx="3.302" dy="1.016" layer="1" rot="R270"/>
-<smd name="13" x="13.97" y="-3.81" dx="3.302" dy="1.016" layer="1" rot="R270"/>
-<smd name="14" x="13.97" y="1.27" dx="3.302" dy="1.016" layer="1" rot="R270"/>
+<smd name="1" x="-1.27" y="-4.3815" dx="4.5" dy="1.016" layer="1" rot="R270"/>
+<smd name="2" x="-1.27" y="1.8415" dx="4.5" dy="1.016" layer="1" rot="R90"/>
+<smd name="3" x="1.27" y="-4.3815" dx="4.5" dy="1.016" layer="1" rot="R270"/>
+<smd name="4" x="1.27" y="1.8415" dx="4.5" dy="1.016" layer="1" rot="R270"/>
+<smd name="5" x="3.81" y="-4.3815" dx="4.5" dy="1.016" layer="1" rot="R270"/>
+<smd name="6" x="3.81" y="1.8415" dx="4.5" dy="1.016" layer="1" rot="R270"/>
+<smd name="7" x="6.35" y="-4.3815" dx="4.5" dy="1.016" layer="1" rot="R270"/>
+<smd name="8" x="6.35" y="1.8415" dx="4.5" dy="1.016" layer="1" rot="R270"/>
+<smd name="9" x="8.89" y="-4.3815" dx="4.5" dy="1.016" layer="1" rot="R270"/>
+<smd name="10" x="8.89" y="1.8415" dx="4.5" dy="1.016" layer="1" rot="R270"/>
+<smd name="11" x="11.43" y="-4.3815" dx="4.5" dy="1.016" layer="1" rot="R270"/>
+<smd name="12" x="11.43" y="1.8415" dx="4.5" dy="1.016" layer="1" rot="R270"/>
+<smd name="13" x="13.97" y="-4.3815" dx="4.5" dy="1.016" layer="1" rot="R270"/>
+<smd name="14" x="13.97" y="1.8415" dx="4.5" dy="1.016" layer="1" rot="R270"/>
 <text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
