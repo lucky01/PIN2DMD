@@ -20,19 +20,17 @@ Sorry for inconvinience, but is seems that the hunt for quick money eats the bra
 
 It currently supports:
 
-- WPC real pinball input
-- Stern real pinball input
-- Whitestar real pinball input
-- DataEast real pinball input
-- WPC95 real pinball input
-- WPC PinLED
-- Sega 192x64 using 64x64 1/32scan P2 Panels
+- WPC/WPC95 real pinball input
+- Stern SAM real pinball input
+- Stern Whitestar real pinball input
 - Stern Spike real pinball input
+- DataEast/Sega real pinball input
 - Gottlieb real pinball input
 - Capcom real pinball input
 - AlvinG real pinball input
-- Spooky real pinball input
-- SPinball real pinball input (beta)
+- Spooky real pinball input (with full color support from herg for AMH http://ledocd.com/amh_color/)
+- Inder / SPinball real pinball input
+- Sega 192x64 using 64x64 1/32scan P2 Panels
 - DataEast 128x16 real pinball input
 - Visual Pinball / PinMame USB input
 - Future Pinball with DMD interceptor DLL
