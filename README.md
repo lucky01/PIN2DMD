@@ -31,8 +31,10 @@ It currently supports:
 - Spooky real pinball input (with full color support from herg for AMH http://ledocd.com/amh_color/)
 - Inder / SPinball real pinball input
 - Sleic / Petaco real pinball input
+- HomePin real pinball input
 - Sega 192x64 using 64x64 1/32scan P2 Panels
 - DataEast 128x16 real pinball input
+- Mission Pinball Factory and P-ROC USB input
 - Visual Pinball / PinMame USB input
 - Future Pinball with DMD interceptor DLL
 - Unit3d Pinball
