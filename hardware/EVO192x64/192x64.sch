@@ -34447,7 +34447,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="C45" library="resistor" deviceset="CPOL-EU" device="G" value="330uF/25V"/>
 <part name="C46" library="resistor" deviceset="C-EU" device="C1206" value="1uF"/>
 <part name="R31" library="resistor" deviceset="R-EU_" device="R1206" value="11k"/>
-<part name="R32" library="resistor" deviceset="R-EU_" device="R1206" value="3k9"/>
+<part name="R32" library="resistor" deviceset="R-EU_" device="R1206" value="4k7"/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="+5V" library="supply1" deviceset="VDD" device="" value="+5V"/>
 <part name="VDD3" library="supply1" deviceset="VDD" device=""/>
@@ -35175,9 +35175,14 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <junction x="371.602" y="106.68"/>
 </segment>
 <segment>
-<wire x1="373.38" y1="121.92" x2="368.3" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="121.92" x2="370.84" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 <label x="368.3" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="370.84" y1="121.92" x2="368.3" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="119.38" x2="370.84" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="119.38" x2="370.84" y2="121.92" width="0.1524" layer="91"/>
+<junction x="370.84" y="121.92"/>
 </segment>
 <segment>
 <pinref part="RS232" gate="A" pin="2"/>
