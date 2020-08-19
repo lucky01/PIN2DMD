@@ -49,7 +49,8 @@ It currently supports:
 The components cost approximately 120$
 Here is a list of what you need:
  
-#1. The Panels
+## 1. The Panels
+
 The panels we use are sold for video walls and advertising signs. There are many 
 sizes of panels available with different spacing between the LEDs. The ones 
 that fit best into a pinball have 2.5mm spacing (also referred to as P2.5), 
@@ -62,9 +63,9 @@ from the frame and connect side-by-side. Make sure that you end up with 2 x 1/16
 scan panels since these are the only one currently supported by PIN2DMD. 
 The good thing is that they are seamless.
 
-#2. The Controller
+## 2. The Controller
 
-#2.1 The STM32F4 Discovery / Nucleo board with PIN2DMD Shield
+### 2.1 The STM32F4 Discovery / Nucleo board with PIN2DMD Shield
 
 The panels use a 16 pin Hub75 interface to be connected to the next panel or to a 
 controller. We use standard STM32 development boards like the STM32F407 discovery or 
@@ -80,13 +81,15 @@ system is that new hardware functions can easily be implemented by changing the 
 while keeping the controller. Members of the community have organized a group buy for 
 printed circuit boards and also offer different kits. 
 
-#3. The Power Supply
+## 3. The Power Supply
+
 The RGB LED displays require 5vdc for power and if you want to run them
 with full brightness they need a lot of current. A 10A power should be enough.
 You need to connect that power supply up to both panels. The controller can 
 either be supplied by USB or by an external 5V power source
  
-#4. The Firmware
+## 4. The Firmware
+
 Installation is done using ST-Link interface
 
 1) Download and install ST Link Utility: http://www.st.com/web/en/catalog/tools/PF258168
@@ -95,7 +98,8 @@ Installation is done using ST-Link interface
 4) Flash firmware: Target -> Program 
 Choose PIN2DMD.BIN file from firmware/latest latest folder.
 
-#5. The pin2dmd.exe tool
+## 5. The pin2dmd.exe tool
+
 The tool is used to configure the controller und upload needed data for the pinball
 used. It can either run in commandline mode or in GUI mode.
  
