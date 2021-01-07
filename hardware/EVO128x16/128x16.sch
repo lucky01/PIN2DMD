@@ -6,11 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<<<<<<< HEAD
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
-=======
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.127" altunitdist="mm" altunit="mm"/>
->>>>>>> master
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -36896,10 +36892,6 @@ DIN A3, landscape with extra doc field</description>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="C11" library="rcl" deviceset="CPOL-EU" device="CT3528" value="2u2"/>
 <part name="C9" library="resistor" deviceset="C-EU" device="C1206" value="2u2"/>
-<<<<<<< HEAD
-<part name="D1" library="diode" deviceset="DIODE-" device="MINIMELF" value="BAT60"/>
-=======
->>>>>>> master
 <part name="C12" library="rcl" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="R9" library="resistor" deviceset="R-EU_" device="R0805" value="220"/>
 <part name="R10" library="resistor" deviceset="R-EU_" device="R0805" value="220"/>
@@ -37054,10 +37046,7 @@ DIN A3, landscape with extra doc field</description>
 <part name="FRAME1" library="frames" deviceset="DINA3_L" device=""/>
 <part name="FRAME2" library="frames" deviceset="DINA3_L" device=""/>
 <part name="L1" library="rcl" deviceset="L-EU" device="L2012C" value="FCM1608KF-601T03"/>
-<<<<<<< HEAD
-=======
 <part name="D1" library="diode" deviceset="DIODE-" device="SOD323-W" value="BAT60J"/>
->>>>>>> master
 </parts>
 <sheets>
 <sheet>
@@ -37136,10 +37125,6 @@ DIN A3, landscape with extra doc field</description>
 <instance part="GND39" gate="1" x="309.245" y="84.455"/>
 <instance part="C11" gate="G$1" x="303.53" y="203.2"/>
 <instance part="C9" gate="G$1" x="287.02" y="203.2"/>
-<<<<<<< HEAD
-<instance part="D1" gate="G$1" x="309.245" y="105.41" rot="R90"/>
-=======
->>>>>>> master
 <instance part="C12" gate="G$1" x="313.055" y="203.2"/>
 <instance part="R9" gate="G$1" x="195.58" y="116.84"/>
 <instance part="R10" gate="G$1" x="195.58" y="109.22"/>
@@ -37250,10 +37235,7 @@ DIN A3, landscape with extra doc field</description>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="287.02" y="0"/>
 <instance part="L1" gate="G$1" x="335.534" y="201.93"/>
-<<<<<<< HEAD
-=======
 <instance part="D1" gate="G$1" x="309.245" y="106.68" rot="R90"/>
->>>>>>> master
 </instances>
 <busses>
 </busses>
@@ -37344,14 +37326,6 @@ DIN A3, landscape with extra doc field</description>
 <label x="206.375" y="256.54" size="1.27" layer="95"/>
 </segment>
 <segment>
-<<<<<<< HEAD
-<pinref part="+3V19" gate="G$1" pin="+3V3"/>
-<wire x1="309.245" y1="116.205" x2="309.245" y2="107.95" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-</segment>
-<segment>
-=======
->>>>>>> master
 <pinref part="SD" gate="G$1" pin="VCC"/>
 <label x="12.7" y="35.56" size="1.778" layer="95"/>
 <wire x1="66.04" y1="35.56" x2="12.7" y2="35.56" width="0.1524" layer="91"/>
@@ -37418,14 +37392,11 @@ DIN A3, landscape with extra doc field</description>
 <wire x1="335.534" y1="217.043" x2="335.534" y2="207.01" width="0.1524" layer="91"/>
 <junction x="335.534" y="217.043"/>
 </segment>
-<<<<<<< HEAD
-=======
 <segment>
 <pinref part="+3V19" gate="G$1" pin="+3V3"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="309.245" y1="109.22" x2="309.245" y2="116.205" width="0.1524" layer="91"/>
 </segment>
->>>>>>> master
 </net>
 <net name="GND" class="0">
 <segment>
@@ -38857,17 +38828,10 @@ DIN A3, landscape with extra doc field</description>
 <wire x1="297.815" y1="100.33" x2="309.245" y2="100.33" width="0.1524" layer="91"/>
 <junction x="297.815" y="100.33"/>
 <pinref part="C25" gate="G$1" pin="1"/>
-<<<<<<< HEAD
-<wire x1="309.245" y1="100.33" x2="309.245" y2="102.87" width="0.1524" layer="91"/>
-<wire x1="309.245" y1="100.33" x2="309.245" y2="97.79" width="0.1524" layer="91"/>
-<junction x="309.245" y="100.33"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-=======
 <wire x1="309.245" y1="100.33" x2="309.245" y2="97.79" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="309.245" y1="100.33" x2="309.245" y2="104.14" width="0.1524" layer="91"/>
 <junction x="309.245" y="100.33"/>
->>>>>>> master
 </segment>
 </net>
 <net name="N$3" class="0">
