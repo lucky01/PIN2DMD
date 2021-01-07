@@ -11,29 +11,30 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 Due to copyright violations through commercial sales of our software the authors were forced to
 change the project to allow access to the source code for contributors only with version 2.0.
 Also a activation key which is bound to the hardware was introduced.
-More Information how to obtain a key is here http://vpuniverse.com/forums/forum/132-pin2dmd/
+More Information how to obtain a key can be found in chapter 3 here https://pin2dmd.com/installation/ 
 
 The latest binary can be found here 
-https://github.com/lucky01/PIN2DMD/raw/master/firmware/latest/PIN2DMD.bin
+https://github.com/lucky01/PIN2DMD/raw/master/firmware/latest/
 
 Sorry for inconvinience, but is seems that the hunt for quick money eats the brain of the hunter.
 
 It currently supports:
 
-- WPC real pinball input
-- Stern real pinball input
-- Whitestar real pinball input
-- DataEast real pinball input
-- WPC95 real pinball input
-- WPC PinLED
-- Sega 192x64 using 64x64 1/32scan P2 Panels
+- WPC/WPC95 real pinball input
+- Stern SAM real pinball input
+- Stern Whitestar real pinball input
 - Stern Spike real pinball input
+- DataEast/Sega real pinball input
 - Gottlieb real pinball input
 - Capcom real pinball input
 - AlvinG real pinball input
-- Spooky real pinball input
-- SPinball real pinball input (beta)
-- DataEast 128x16 real pinball input (beta)
+- Spooky real pinball input (with full color support from herg for AMH http://ledocd.com/amh_color/)
+- Inder / SPinball real pinball input
+- Sleic / Petaco real pinball input
+- HomePin real pinball input
+- Sega 192x64 using 64x64 1/32scan P2 Panels
+- DataEast 128x16 real pinball input
+- Mission Pinball Factory and P-ROC USB input
 - Visual Pinball / PinMame USB input
 - Future Pinball with DMD interceptor DLL
 - Unit3d Pinball
@@ -42,7 +43,7 @@ It currently supports:
 - Pinball fx2 support using dmdext from Freezy
 - The Pinball Arcade support using dmdext from Freezy and NoEx
 - Pinball Browser / SmartDMD color switching for full color Stern ROMS
-- Frame colorization with PIN2DMD Editor by Steve (beta) for all pinball machines
+- Frame colorization with PIN2DMD Editor by Steve for all pinball machines
 - WCID Windows automated driver installation
 
 The components cost approximately 120$
@@ -77,8 +78,7 @@ The board also has a 14pin connector which is used as input to get the data from
 PCB layout examples can be found in the hardware directory. The advantage of the modular 
 system is that new hardware functions can easily be implemented by changing the shield 
 while keeping the controller. Members of the community have organized a group buy for 
-printed circuit boards and also offer different kits. Search for PIN2DMD on 
-http://www.flippermarkt.de or http://vpuniverse.com/forums/forum/132-pin2dmd/ .
+printed circuit boards and also offer different kits. 
 
 #3. The Power Supply
 The RGB LED displays require 5vdc for power and if you want to run them
@@ -90,7 +90,7 @@ either be supplied by USB or by an external 5V power source
 Installation is done using ST-Link interface
 
 1) Download and install ST Link Utility: http://www.st.com/web/en/catalog/tools/PF258168
-2) The latest binary can be found here https://github.com/lucky01/PIN2DMD/raw/master/firmware/latest/PIN2DMD.bin
+2) The latest binary can be found here https://github.com/lucky01/PIN2DMD/raw/master/firmware/latest/
 3) Connect the STM32 board to the PC using a mini-USB cable (not the smaller microUSB cable). The board will light up and you should an STM32 STLink USB device connected in the Windows notification tray
 4) Flash firmware: Target -> Program 
 Choose PIN2DMD.BIN file from firmware/latest latest folder.

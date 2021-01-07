@@ -1,0 +1,3 @@
+[smartdmd]
+PaletteID=0x08090A0B
+
