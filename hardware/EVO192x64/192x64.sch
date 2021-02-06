@@ -35175,14 +35175,9 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <junction x="371.602" y="106.68"/>
 </segment>
 <segment>
-<wire x1="373.38" y1="121.92" x2="370.84" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="121.92" x2="368.3" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 <label x="368.3" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="370.84" y1="121.92" x2="368.3" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="119.38" x2="370.84" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="119.38" x2="370.84" y2="121.92" width="0.1524" layer="91"/>
-<junction x="370.84" y="121.92"/>
 </segment>
 <segment>
 <pinref part="RS232" gate="A" pin="2"/>
