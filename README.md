@@ -18,6 +18,8 @@ https://github.com/lucky01/PIN2DMD/raw/master/firmware/latest/
 
 Sorry for inconvinience, but is seems that the hunt for quick money eats the brain of the hunter.
 
+More information can be found on https://pin2dmd.com/
+
 It currently supports:
 
 - WPC/WPC95 real pinball input
@@ -64,21 +66,18 @@ The good thing is that they are seamless.
 
 #2. The Controller
 
-#2.1 The STM32F4 Discovery / Nucleo board with PIN2DMD Shield
+#2.1 The STM32 Nucleo board with PIN2DMD Shield or EVO boards
 
 The panels use a 16 pin Hub75 interface to be connected to the next panel or to a 
-controller. We use standard STM32 development boards like the STM32F407 discovery or 
-Nucleo144-F429ZI which are available from multiple sources for about $20. 
-It is based on a ARM Cortex processor architecture which is needed 
-for the rapid bit-shifting of data to control the panels. We write the program in C. 
-The software is uploaded to the controller through mini USB port.
-To connect the displays to the controller you need a connector shield pcb, which 
+controller. We use standard STM32 development boards like the Nucleo144-F429ZI or NUCLEO-F439ZI
+which are available from multiple sources for about $20 or custom EVO boards.
+The proceesor is based on a ARM Cortex processor architecture which is needed 
+for the rapid bit-shifting of data to control the panels. We write the program in C/C++. 
+The software is uploaded to the controller through USB port.
+To connect the displays to the controller there is a HUB75 connector, which 
 basically just connects the pins to the 16-pin ribbon cable that drives the displays. 
 The board also has a 14pin connector which is used as input to get the data from a real machine. 
-PCB layout examples can be found in the hardware directory. The advantage of the modular 
-system is that new hardware functions can easily be implemented by changing the shield 
-while keeping the controller. Members of the community have organized a group buy for 
-printed circuit boards and also offer different kits. 
+PCB layout examples can be found in the hardware directory. 
 
 #3. The Power Supply
 The RGB LED displays require 5vdc for power and if you want to run them
