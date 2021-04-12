@@ -34437,7 +34437,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="R29" library="resistor" deviceset="R-EU_" device="R0805" value="680"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="LD2" library="adafruit" deviceset="LED" device="CHIP-LED0805" value="green"/>
+<part name="LD2" library="adafruit" deviceset="LED" device="CHIP-LED0805" value="yellow"/>
 <part name="R30" library="resistor" deviceset="R-EU_" device="R0805" value="680"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="C38" library="resistor" deviceset="C-EU" device="C1206" value="1uF"/>
