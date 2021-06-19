@@ -9553,17 +9553,17 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <attribute name="NAME" x="324.781184375" y="126.545284375" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="322.971184375" y="122.795284375" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C24" library="rcl" package="C0805" value="100n" x="313.127240625" y="115.494925" smashed="yes" rot="R270">
-<attribute name="NAME" x="310.897240625" y="114.764925" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="310.837240625" y="119.514925" size="1.27" layer="27" rot="R270"/>
+<element name="C24" library="rcl" package="C0805" value="100n" x="313.127240625" y="121.244925" smashed="yes" rot="R270">
+<attribute name="NAME" x="310.897240625" y="120.514925" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="310.837240625" y="125.264925" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R17" library="rcl" package="R0805" value="10k" x="245.601165625" y="122.79836875" smashed="yes" rot="R270">
 <attribute name="NAME" x="246.746165625" y="124.18336875" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="243.186165625" y="125.55836875" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C25" library="resistor" package="C1206" value="2u2" x="308.953159375" y="115.557640625" smashed="yes" rot="R270">
-<attribute name="NAME" x="306.473159375" y="114.827640625" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="306.413159375" y="118.577640625" size="1.27" layer="27" rot="R270"/>
+<element name="C25" library="resistor" package="C1206" value="2u2" x="308.953159375" y="120.807640625" smashed="yes" rot="R270">
+<attribute name="NAME" x="306.473159375" y="120.077640625" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="306.413159375" y="123.827640625" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C11" library="rcl" package="CT3528" value="2u2" x="264.501915625" y="99.921859375" smashed="yes" rot="R270">
 <attribute name="NAME" x="266.406915625" y="101.461859375" size="1.27" layer="25" rot="R270"/>
@@ -10103,13 +10103,11 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <contactref element="IC3" pad="2"/>
 <contactref element="C24" pad="1"/>
 <contactref element="C25" pad="1"/>
-<wire x1="313.127240625" y1="116.444925" x2="313.126428125" y2="121.75001875" width="1.27" layer="1"/>
-<wire x1="313.126428125" y1="121.75001875" x2="313.126353125" y2="122.238128125" width="1.27" layer="1"/>
-<wire x1="313.126353125" y1="122.238128125" x2="315.351453125" y2="122.238128125" width="1.6764" layer="1"/>
-<wire x1="315.351453125" y1="122.238128125" x2="316.64253125" y2="123.52920625" width="1.6764" layer="1"/>
-<wire x1="287.758178125" y1="122.199634375" x2="313.126428125" y2="122.199634375" width="1.27" layer="1"/>
-<wire x1="313.126428125" y1="122.199634375" x2="313.126428125" y2="121.75001875" width="1.27" layer="1"/>
-<wire x1="313.127240625" y1="116.444925" x2="308.953159375" y2="116.957640625" width="0" layer="19" extent="1-1"/>
+<wire x1="315.312959375" y1="122.199634375" x2="316.64253125" y2="123.52920625" width="1.6764" layer="1"/>
+<wire x1="287.758178125" y1="122.199634375" x2="308.626428125" y2="122.199634375" width="1.27" layer="1"/>
+<wire x1="308.626428125" y1="122.199634375" x2="315.312959375" y2="122.199634375" width="1.6764" layer="1"/>
+<wire x1="315.312959375" y1="122.199634375" x2="313.127240625" y2="122.194925" width="0" layer="19" extent="1-1"/>
+<wire x1="308.953159375" y1="122.207640625" x2="308.626428125" y2="122.199634375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="C1" pad="-"/>
@@ -12421,7 +12419,7 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <wire x1="228.25" y1="76.25" x2="230.75" y2="73.75" width="0.254" layer="1"/>
 <wire x1="230.75" y1="73.75" x2="238.75" y2="73.75" width="0.254" layer="1"/>
 <wire x1="245" y1="76.75" x2="259.25" y2="76.75" width="0.254" layer="1"/>
-<wire x1="226.52" y1="76.19" x2="226.58" y2="76.25" width="0" layer="19" extent="1-1"/>
+<wire x1="226.52" y1="76.19" x2="226.58" y2="76.25" width="0.254" layer="1"/>
 </signal>
 <signal name="PD12_">
 <contactref element="IC4" pad="13"/>
