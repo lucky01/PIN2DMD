@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -72,25 +72,40 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 </layers>
 <board>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTU5NjVh" projecturn="a.cGVyc29uYWw6dWUyYTU5NjVhIzIwMTgwMTI3MTE0NTcxNjAx" f3durn="urn:adsk.wipprod:dm.lineage:CZkjrci_QYaNrXUiUrepbQ" pcbguid="4a14353d-3874-44b6-8a7d-28552ca931f1" lastpulledtime="" lastsyncedchangeguid="a654de65-6096-6c55-33b7-8a1a0a4cb835" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="25ecbafb-a767-29ec-26bb-04700328c9ca" lastpushedtime="2021-07-01T18:42:25Z" linktopcb3d="false"/>
 <plain>
 <wire x1="0" y1="0" x2="59.25" y2="0" width="0" layer="20"/>
-<text x="21.971" y="26.67" size="1.27" layer="21">WPC Wire Harness</text>
-<text x="39.37" y="16.51" size="1.4224" layer="21">DE
-Sega/Stern
+<text x="21.971" y="25.908" size="1.27" layer="21">WPC Wire Harness</text>
+<text x="39.37" y="15.24" size="1.778" layer="21">DE
+Sega
+Stern
 POWER ADAPTER</text>
-<text x="1.651" y="21.59" size="3" layer="21">PIN2DMD</text>
-<text x="5.08" y="15.24" size="1.27" layer="21">Designed by
+<text x="1.27" y="21.59" size="3.81" layer="21">PIN2DMD</text>
+<text x="5.08" y="13.97" size="1.4224" layer="21">Designed by
 René Venema</text>
+<text x="22.86" y="36.83" size="1.778" layer="51" ratio="15">JLCJLCJLCJLC</text>
 <wire x1="59.25" y1="40.92" x2="0" y2="40.92" width="0" layer="20"/>
 <wire x1="0" y1="40.92" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="59.25" y1="0" x2="59.25" y2="40.92" width="0" layer="20"/>
+<text x="1.27" y="29.21" size="1.016" layer="21">15</text>
+<text x="57.15" y="29.21" size="1.016" layer="21">1</text>
+<text x="27.686" y="15.113" size="1.27" layer="21" rot="R90" align="center-right">GND</text>
+<text x="31.623" y="15.113" size="1.27" layer="21" rot="R90" align="center-right">12V</text>
+<text x="23.622" y="15.113" size="1.27" layer="21" rot="R90" align="center-right">5V</text>
+<text x="35.56" y="37.465" size="1.016" layer="22" rot="MR0">Machine PCB side</text>
+<polygon width="0.1524" layer="22">
+<vertex x="22.86" y="38.862"/>
+<vertex x="22.606" y="38.1"/>
+<vertex x="23.114" y="38.1"/>
+</polygon>
+<wire x1="22.86" y1="38.862" x2="22.86" y2="37.084" width="0.1524" layer="22"/>
 </plain>
 <libraries>
-<library name="con-molex">
+<library name="con-molex" urn="urn:adsk.eagle:library:165">
 <description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="KK-156-4">
+<package name="KK-156-4" urn="urn:adsk.eagle:footprint:8078404/1" library_version="5">
 <description>&lt;b&gt;KK® 396 Header, Vertical, Friction Lock, 4 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/026604040_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="7.77" y1="4.95" x2="5.97" y2="4.95" width="0.2032" layer="21"/>
 <wire x1="5.97" y1="4.95" x2="-5.945" y2="4.95" width="0.2032" layer="21"/>
@@ -109,6 +124,14 @@ René Venema</text>
 <text x="9.71" y="-4.445" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="KK-156-4" urn="urn:adsk.eagle:package:8078802/1" type="box" library_version="5">
+<description>&lt;b&gt;KK® 396 Header, Vertical, Friction Lock, 4 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/026604040_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="KK-156-4"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="con-molex_KK-156-Horizontal">
 <description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
@@ -156,7 +179,7 @@ René Venema</text>
 <wire x1="24.85" y1="1.6" x2="26.63" y2="1.6" width="0.2032" layer="21"/>
 <wire x1="28.81" y1="1.6" x2="29.55" y2="1.6" width="0.2032" layer="21"/>
 </package>
-<package name="KK-156-15">
+<package name="KK-156-15" urn="urn:adsk.eagle:footprint:8078414/1" locally_modified="yes">
 <description>&lt;b&gt;KK® 396 Header, Vertical, Friction Lock, 15 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/026604150_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-29.5" y1="-5.41" x2="29.55" y2="-5.41" width="0.2032" layer="21"/>
 <pad name="1" x="-27.72" y="0" drill="1.7" diameter="2.1844" shape="long" rot="R90"/>
@@ -181,6 +204,14 @@ René Venema</text>
 <wire x1="29.55" y1="-5.41" x2="29.55" y2="-8.71" width="0.2032" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="KK-156-15" urn="urn:adsk.eagle:package:8078824/1" type="box">
+<description>&lt;b&gt;KK® 396 Header, Vertical, Friction Lock, 15 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/026604150_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="KK-156-15"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -257,10 +288,14 @@ Please make sure your boards conform to these design rules.
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -361,7 +396,7 @@ Please make sure your boards conform to these design rules.
 </pass>
 </autorouter>
 <elements>
-<element name="X3" library="con-molex" package="KK-156-4" value="" x="29.591" y="20.32" smashed="yes">
+<element name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="KK-156-4" package3d_urn="urn:adsk.eagle:package:8078802/1" override_package3d_urn="urn:adsk.eagle:package:16129121/2" override_package_urn="urn:adsk.eagle:footprint:8078404/1" value="" x="29.591" y="20.32" smashed="yes">
 <attribute name="MF" value="MOLEX" x="29.591" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="29.591" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="21.278" y="16.51" size="1.27" layer="25" rot="R90"/>
@@ -370,11 +405,11 @@ Please make sure your boards conform to these design rules.
 <attribute name="POPULARITY" value="0" x="29.591" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="39.301" y="15.875" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="X1" library="con-molex_KK-156-Horizontal" package="KK-156-15_F" value="" x="29.591" y="33.02" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.292" y="27.94" size="1.27" layer="25" rot="R90"/>
+<element name="X1" library="con-molex_KK-156-Horizontal" package="KK-156-15_F" override_package3d_urn="urn:adsk.eagle:package:16129078/2" override_package_urn="urn:adsk.eagle:footprint:16129079/1" override_locally_modified="yes" value="" x="29.591" y="33.02" smashed="yes" rot="R180">
+<attribute name="NAME" x="55.632" y="27.94" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-1.899" y="37.465" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="X2" library="con-molex_KK-156-Horizontal" package="KK-156-15" value="" x="29.591" y="8.89" smashed="yes">
+<element name="X2" library="con-molex_KK-156-Horizontal" package="KK-156-15" package3d_urn="urn:adsk.eagle:package:8078824/1" override_package3d_urn="urn:adsk.eagle:package:16129117/3" override_package_urn="urn:adsk.eagle:footprint:16129118/1" value="" x="29.591" y="8.89" smashed="yes">
 <attribute name="MF" value="MOLEX" x="29.591" y="8.89" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="29.591" y="8.89" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="2.292" y="12.065" size="1.27" layer="25" rot="R90"/>
@@ -477,34 +512,94 @@ Please make sure your boards conform to these design rules.
 </signal>
 <signal name="GND">
 <contactref element="X3" pad="2"/>
-<contactref element="X1" pad="11"/>
-<contactref element="X1" pad="12"/>
-<contactref element="X1" pad="13"/>
-<contactref element="X1" pad="14"/>
 <contactref element="X1" pad="15"/>
 <contactref element="X2" pad="1"/>
+<wire x1="1.871" y1="33.02" x2="1.871" y2="30.48" width="2.54" layer="1"/>
+<wire x1="1.871" y1="30.48" x2="1.871" y2="27.94" width="2.54" layer="1"/>
+<wire x1="1.871" y1="27.94" x2="1.871" y2="25.4" width="2.54" layer="1"/>
+<wire x1="1.871" y1="25.4" x2="1.871" y2="8.89" width="2.54" layer="1"/>
+<wire x1="1.871" y1="27.94" x2="4.411" y2="27.94" width="2.54" layer="1"/>
+<wire x1="4.411" y1="27.94" x2="22.86" y2="27.94" width="2.54" layer="1"/>
+<wire x1="22.86" y1="27.94" x2="27.611" y2="23.189" width="2.54" layer="1"/>
+<wire x1="27.611" y1="23.189" x2="27.611" y2="20.32" width="2.54" layer="1"/>
+<wire x1="1.871" y1="30.48" x2="4.411" y2="27.94" width="2.54" layer="1"/>
+<wire x1="4.411" y1="27.94" x2="1.871" y2="25.4" width="2.54" layer="1"/>
+</signal>
+<signal name="N$1">
+<contactref element="X1" pad="14"/>
 <contactref element="X2" pad="2"/>
+<wire x1="5.831" y1="33.02" x2="5.831" y2="31.364" width="2.54" layer="16"/>
+<wire x1="5.831" y1="31.364" x2="3.3782" y2="28.9112" width="2.54" layer="16"/>
+<wire x1="3.3782" y1="28.9112" x2="3.3782" y2="12.8718" width="2.54" layer="16"/>
+<wire x1="3.3782" y1="12.8718" x2="5.831" y2="10.419" width="2.54" layer="16"/>
+<wire x1="5.831" y1="10.419" x2="5.831" y2="8.89" width="2.54" layer="16"/>
+</signal>
+<signal name="N$11">
+<contactref element="X1" pad="13"/>
 <contactref element="X2" pad="3"/>
+<wire x1="9.791" y1="33.02" x2="9.791" y2="31.11" width="2.54" layer="16"/>
+<wire x1="9.791" y1="31.11" x2="6.7564" y2="28.0754" width="2.54" layer="16"/>
+<wire x1="6.7564" y1="28.0754" x2="6.7564" y2="13.5806" width="2.54" layer="16"/>
+<wire x1="6.7564" y1="13.5806" x2="9.791" y2="10.546" width="2.54" layer="16"/>
+<wire x1="9.791" y1="10.546" x2="9.791" y2="8.89" width="2.54" layer="16"/>
+</signal>
+<signal name="N$12">
+<contactref element="X1" pad="12"/>
 <contactref element="X2" pad="4"/>
+<wire x1="13.751" y1="33.02" x2="13.751" y2="30.856" width="2.54" layer="16"/>
+<wire x1="13.751" y1="30.856" x2="10.1346" y2="27.2396" width="2.54" layer="16"/>
+<wire x1="10.1346" y1="27.2396" x2="10.1346" y2="14.2894" width="2.54" layer="16"/>
+<wire x1="10.1346" y1="14.2894" x2="13.751" y2="10.673" width="2.54" layer="16"/>
+<wire x1="13.751" y1="10.673" x2="13.751" y2="8.89" width="2.54" layer="16"/>
+</signal>
+<signal name="N$13">
+<contactref element="X1" pad="11"/>
 <contactref element="X2" pad="5"/>
-<polygon width="1.016" layer="1" isolate="0.4064">
-<vertex x="0" y="36.83"/>
-<vertex x="20.701" y="36.83"/>
-<vertex x="20.701" y="25.4"/>
-<vertex x="28.321" y="25.4"/>
-<vertex x="28.321" y="15.24"/>
-<vertex x="20.701" y="15.24"/>
-<vertex x="20.701" y="5.08"/>
-<vertex x="0" y="5.08"/>
-</polygon>
+<wire x1="17.711" y1="8.89" x2="17.711" y2="10.8" width="2.54" layer="16"/>
+<wire x1="17.711" y1="10.8" x2="13.5128" y2="14.9982" width="2.54" layer="16"/>
+<wire x1="13.5128" y1="14.9982" x2="13.5128" y2="26.2768" width="2.54" layer="16"/>
+<wire x1="13.5128" y1="26.2768" x2="17.711" y2="30.475" width="2.54" layer="16"/>
+<wire x1="17.711" y1="30.475" x2="17.711" y2="33.02" width="2.54" layer="16"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 </board>
 </drawing>
 <compatibility>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>

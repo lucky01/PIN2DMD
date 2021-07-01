@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -73,12 +73,12 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="frames">
+<library name="frames" urn="urn:adsk.eagle:library:229">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
 </packages>
 <symbols>
-<symbol name="A4L-LOC">
+<symbol name="A4L-LOC" urn="urn:adsk.eagle:symbol:13874/1" library_version="1">
 <wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
@@ -103,7 +103,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="A4L-LOC" prefix="FRAME" uservalue="yes">
+<deviceset name="A4L-LOC" urn="urn:adsk.eagle:component:13926/1" prefix="FRAME" uservalue="yes" library_version="1">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 DIN A4, landscape with location and doc. field</description>
 <gates>
@@ -119,11 +119,11 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-molex">
+<library name="con-molex" urn="urn:adsk.eagle:library:165">
 <description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="KK-156-4">
+<package name="KK-156-4" urn="urn:adsk.eagle:footprint:8078404/1" library_version="5">
 <description>&lt;b&gt;KK® 396 Header, Vertical, Friction Lock, 4 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/026604040_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="7.77" y1="4.95" x2="5.97" y2="4.95" width="0.2032" layer="21"/>
 <wire x1="5.97" y1="4.95" x2="-5.945" y2="4.95" width="0.2032" layer="21"/>
@@ -142,21 +142,29 @@ DIN A4, landscape with location and doc. field</description>
 <text x="9.71" y="-4.445" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="KK-156-4" urn="urn:adsk.eagle:package:8078802/1" type="box" library_version="5">
+<description>&lt;b&gt;KK® 396 Header, Vertical, Friction Lock, 4 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/026604040_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="KK-156-4"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="MV">
+<symbol name="MV" urn="urn:adsk.eagle:symbol:6783/2" library_version="5">
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
 <text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
 <text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
-<symbol name="M">
+<symbol name="M" urn="urn:adsk.eagle:symbol:6785/2" library_version="5">
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
 <text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
 <pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="KK-156-4" prefix="X" uservalue="yes">
+<deviceset name="KK-156-4" urn="urn:adsk.eagle:component:8079130/3" prefix="X" uservalue="yes" library_version="5">
 <description>&lt;b&gt;KK 156 HEADER&lt;/b&gt;&lt;p&gt;
 Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <gates>
@@ -173,6 +181,9 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <connect gate="-3" pin="S" pad="3"/>
 <connect gate="-4" pin="S" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8078802/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="MOLEX" constant="no"/>
@@ -187,7 +198,7 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1">
+<library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
  Please keep in mind, that these devices are necessary for the
@@ -198,14 +209,14 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <packages>
 </packages>
 <symbols>
-<symbol name="GND">
+<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GND" prefix="GND">
+<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
@@ -266,7 +277,7 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <wire x1="24.85" y1="1.6" x2="26.63" y2="1.6" width="0.2032" layer="21"/>
 <wire x1="28.81" y1="1.6" x2="29.55" y2="1.6" width="0.2032" layer="21"/>
 </package>
-<package name="KK-156-15">
+<package name="KK-156-15" urn="urn:adsk.eagle:footprint:8078414/1" locally_modified="yes">
 <description>&lt;b&gt;KK® 396 Header, Vertical, Friction Lock, 15 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/026604150_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-29.5" y1="-5.41" x2="29.55" y2="-5.41" width="0.2032" layer="21"/>
 <pad name="1" x="-27.72" y="0" drill="1.7" diameter="2.1844" shape="long" rot="R90"/>
@@ -291,14 +302,22 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <wire x1="29.55" y1="-5.41" x2="29.55" y2="-8.71" width="0.2032" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="KK-156-15" urn="urn:adsk.eagle:package:8078824/1" type="box">
+<description>&lt;b&gt;KK® 396 Header, Vertical, Friction Lock, 15 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/026604150_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="KK-156-15"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="MV">
+<symbol name="MV" urn="urn:adsk.eagle:symbol:6783/2" locally_modified="yes">
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
 <text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
 <text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
-<symbol name="M">
+<symbol name="M" urn="urn:adsk.eagle:symbol:6785/2">
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
 <text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
 <pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
@@ -350,7 +369,7 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="KK-156-15" prefix="X" uservalue="yes">
+<deviceset name="KK-156-15" urn="urn:adsk.eagle:component:8079144/3" prefix="X" uservalue="yes">
 <description>&lt;b&gt;KK 156 HEADER&lt;/b&gt;&lt;p&gt;
 Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <gates>
@@ -389,6 +408,9 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <connect gate="-8" pin="S" pad="8"/>
 <connect gate="-9" pin="S" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8078824/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="MOLEX" constant="no"/>
@@ -413,11 +435,11 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="X3" library="con-molex" deviceset="KK-156-4" device=""/>
-<part name="X1" library="con-molex_KK-156-Horizontal" deviceset="KK-156-15_F" device="KK-156-15-F"/>
-<part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="X2" library="con-molex_KK-156-Horizontal" deviceset="KK-156-15" device=""/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
+<part name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="KK-156-4" device="" package3d_urn="urn:adsk.eagle:package:8078802/1" override_package3d_urn="urn:adsk.eagle:package:16129121/2" override_package_urn="urn:adsk.eagle:footprint:8078404/1"/>
+<part name="X1" library="con-molex_KK-156-Horizontal" deviceset="KK-156-15_F" device="KK-156-15-F" override_package3d_urn="urn:adsk.eagle:package:16129078/2" override_package_urn="urn:adsk.eagle:footprint:16129079/1" override_locally_modified="yes"/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="X2" library="con-molex_KK-156-Horizontal" deviceset="KK-156-15" device="" package3d_urn="urn:adsk.eagle:package:8078824/1" override_package3d_urn="urn:adsk.eagle:package:16129117/3" override_package_urn="urn:adsk.eagle:footprint:16129118/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -626,45 +648,15 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <wire x1="48.26" y1="81.28" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="X3" gate="-2" pin="S"/>
-<wire x1="50.8" y1="81.28" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="81.28" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="81.28" x2="50.8" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="81.28" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="81.28" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="114.3" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="119.38" x2="45.72" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="119.38" x2="91.44" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="119.38" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
-<junction x="45.72" y="119.38"/>
-<wire x1="91.44" y1="121.92" x2="48.26" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="121.92" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="121.92" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
-<junction x="48.26" y="121.92"/>
-<wire x1="38.1" y1="124.46" x2="50.8" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="124.46" x2="91.44" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="124.46" x2="50.8" y2="81.28" width="0.1524" layer="91"/>
-<junction x="50.8" y="124.46"/>
-<pinref part="X1" gate="-11" pin="S"/>
-<pinref part="X1" gate="-12" pin="S"/>
-<pinref part="X1" gate="-13" pin="S"/>
-<wire x1="43.18" y1="116.84" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-14" pin="S"/>
-<wire x1="43.18" y1="116.84" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="114.3" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-15" pin="S"/>
 <wire x1="40.64" y1="114.3" x2="40.64" y2="81.28" width="0.1524" layer="91"/>
-<junction x="43.18" y="116.84"/>
 <junction x="40.64" y="114.3"/>
-<junction x="43.18" y="81.28"/>
-<junction x="45.72" y="81.28"/>
 <junction x="48.26" y="81.28"/>
-<junction x="50.8" y="81.28"/>
 <pinref part="X2" gate="-1" pin="S"/>
-<pinref part="X2" gate="-2" pin="S"/>
-<pinref part="X2" gate="-3" pin="S"/>
-<pinref part="X2" gate="-4" pin="S"/>
-<pinref part="X2" gate="-5" pin="S"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -700,9 +692,59 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <wire x1="91.44" y1="134.62" x2="38.1" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="X2" gate="-2" pin="S"/>
+<wire x1="91.44" y1="116.84" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-14" pin="S"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="X2" gate="-3" pin="S"/>
+<wire x1="38.1" y1="119.38" x2="91.44" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-13" pin="S"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="X2" gate="-4" pin="S"/>
+<wire x1="91.44" y1="121.92" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-12" pin="S"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="X2" gate="-5" pin="S"/>
+<wire x1="38.1" y1="124.46" x2="91.44" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-11" pin="S"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
