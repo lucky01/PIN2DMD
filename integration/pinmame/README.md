@@ -9,7 +9,7 @@ Get installation support here
 https://vpuniverse.com/forums/topic/7191-new-version-pin2dmd-dmddevicedll-with-dmdext-as-plugin/
 
 Freezy dmd-extensions is licensed under GPL. Both dmddevice.dll and dmdext.dll (renamed to dmddevice.dll) can be used independently 
-and are separate programs, so the license of the Freezy plug-in makes no requirements about the main program and can be distributed together.
+and are separate programs, so the license of the Freezy plug-in makes no requirements about the main program.
 For pin2dmd users there is absolutely no need to install freezy DmdExt.dll. It is just provided as a optional service for non pin2dmd users.
 In comliance to the GPL of Freezys dmd-extensions, the source of the version used can be found here 
 https://github.com/lucky01/dmd-extensions/tree/dmdext.dll
