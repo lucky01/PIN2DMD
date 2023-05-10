@@ -17,7 +17,7 @@
 2 x IDC socket 2x8 pins male 2.54mm
 2 x Tactile push button 6x6x10mm 4pin DIP
 8 x 100nF
-1 x XL4015 module or XL4005 module
+1 x XL4015 module or XL4005 module set to 4.8V 
 1 x Screw terminal block 2pin 5mm (8-36VDC in)
 1 x CH3.96 china or Molex 4P KK3.96 model: 09652048
 
