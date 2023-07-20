@@ -34695,6 +34695,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <text x="284.48" y="102.87" size="1.27" layer="95">TO252</text>
 <text x="375.285" y="251.46" size="1.27" layer="95" rot="R90">(BOOT1)</text>
 <text x="227.965" y="150.495" size="1.27" layer="95">ST_Link/V2</text>
+<text x="378.968" y="6.858" size="2.54" layer="94">1.5</text>
 </plain>
 <instances>
 <instance part="STM32" gate="G$1" x="33.02" y="187.96"/>

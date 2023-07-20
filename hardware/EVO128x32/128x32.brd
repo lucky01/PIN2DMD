@@ -167,7 +167,7 @@
 <plain>
 <text x="256.54" y="13.2407" size="2.1844" layer="25">+</text>
 <text x="257.1752" y="7.9067" size="2.1844" layer="25">-</text>
-<text x="245.7133" y="18.0348" size="2.1844" layer="25">8-36V DC</text>
+<text x="245.7133" y="18.0348" size="2.1844" layer="25">8-36V DC INPUT</text>
 <text x="150.550875" y="5.47624375" size="4.191" layer="25" font="vector">COLORPRISM  128 X 32</text>
 <rectangle x1="150.924259375" y1="12.35201875" x2="151.056334375" y2="12.41805625" layer="25"/>
 <rectangle x1="151.584659375" y1="12.35201875" x2="151.716734375" y2="12.41805625" layer="25"/>
@@ -5662,7 +5662,7 @@
 <text x="225.38" y="120.58" size="1.9304" layer="21" rot="R90">+5V</text>
 <text x="221.51" y="121.03" size="1.9304" layer="21" rot="R90">GND</text>
 <text x="217.37" y="121.03" size="1.9304" layer="21" rot="R90">GND</text>
-<text x="231.648" y="114.808" size="1.9304" layer="21">5V DC POWER</text>
+<text x="231.648" y="114.808" size="1.9304" layer="21">5V DC POWER INPUT</text>
 <wire x1="41.402" y1="89.154" x2="41.402" y2="39.116" width="0.254" layer="21" style="longdash"/>
 <wire x1="41.402" y1="39.116" x2="66.04" y2="39.116" width="0.254" layer="21" style="longdash"/>
 <wire x1="79.502" y1="39.116" x2="179.324" y2="39.116" width="0.254" layer="21" style="longdash"/>
@@ -5677,8 +5677,8 @@
 <wire x1="339.344" y1="89.154" x2="201.422" y2="89.154" width="0.254" layer="21" style="longdash"/>
 <wire x1="350.52" y1="104.14" x2="350.52" y2="24.13" width="0.254" layer="21" style="longdash"/>
 <wire x1="30.48" y1="24.13" x2="30.48" y2="104.14" width="0.254" layer="21" style="longdash"/>
-<text x="332.414875" y="4.96824375" size="1.778" layer="25" font="vector">EVO128X32 BOARD REV 1.4
-(C) 2020 WWW.PIN2DMD.COM</text>
+<text x="332.414875" y="4.96824375" size="1.778" layer="25" font="vector">EVO128X32 BOARD REV 1.5
+(C) 2023 WWW.PIN2DMD.COM</text>
 <wire x1="30.395721875" y1="104.081834375" x2="33.332165625" y2="104.081834375" width="0.254" layer="21" style="longdash"/>
 <wire x1="43.18" y1="104.14" x2="73.914" y2="104.14" width="0.254" layer="21" style="longdash"/>
 <wire x1="92.456" y1="104.394" x2="190.399721875" y2="104.081834375" width="0.254" layer="21" style="longdash"/>
@@ -5686,7 +5686,7 @@
 <wire x1="190.415721875" y1="104.081834375" x2="350.419721875" y2="104.081834375" width="0.254" layer="21" style="longdash"/>
 <wire x1="350.419721875" y1="24.079834375" x2="190.415721875" y2="24.079834375" width="0.254" layer="21" style="longdash"/>
 <wire x1="190.399721875" y1="24.079834375" x2="30.395721875" y2="24.079834375" width="0.254" layer="21" style="longdash"/>
-<text x="293.878" y="10.414" size="1.9304" layer="21">12V DC POWER</text>
+<text x="293.878" y="10.414" size="1.9304" layer="21">12V DC POWER INPUT</text>
 <text x="134.62" y="70.866" size="1.778" layer="26" rot="MR180">+</text>
 <text x="134.62" y="74.422" size="1.778" layer="26" rot="MR180">+</text>
 <text x="134.874" y="61.722" size="1.778" layer="26" rot="MR180">-</text>
