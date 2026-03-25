@@ -5705,7 +5705,7 @@
 <wire x1="339.344" y1="89.154" x2="201.422" y2="89.154" width="0.254" layer="21" style="longdash"/>
 <wire x1="350.52" y1="104.14" x2="350.52" y2="24.13" width="0.254" layer="21" style="longdash"/>
 <wire x1="30.48" y1="24.13" x2="30.48" y2="33.782" width="0.254" layer="21" style="longdash"/>
-<text x="332.414875" y="4.96824375" size="1.778" layer="25" font="vector">EVO128X32 BOARD REV 1.5
+<text x="332.414875" y="4.96824375" size="1.778" layer="25" font="vector">EVO128X32 BOARD REV 1.6
 (C) 2025 WWW.PIN2DMD.COM</text>
 <wire x1="30.48" y1="33.782" x2="30.48" y2="94.742" width="0.254" layer="21" style="longdash"/>
 <wire x1="30.48" y1="94.742" x2="30.48" y2="104.14" width="0.254" layer="21" style="longdash"/>
