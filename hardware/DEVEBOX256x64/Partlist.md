@@ -5,6 +5,7 @@
 1 x DEVEBOX STM32H743VIT6
 
 2 x Pinheader 2x22 pins female double row 2.54mm
+1 x Pinheader 2x20 pins female double row 2.54mm (MMI)
 3 x IC socket 20pin
 8 x 47pf
 1 x 1kOhm
